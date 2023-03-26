@@ -1,0 +1,3 @@
+//!wrt $BSPEC:{"icn":"mime/installer"}
+
+(async()=>{if(3e5<=w96.sys.env.getEnv("os_ver")){let a=JSON.parse(await w96.FS.readstr("c:/system/packages/configs/sources.json"));a.sources.push("https://ihategithub9000.github.io/the_yes/"),await w96.FS.writestr("c:/system/packages/configs/sources.json",JSON.stringify(a)),alert("The Yes Repo was succesfully added to\nPackage Manager's repos")}else alert("This repo requires OS version 300000. Your version is "+w96.sys.env.getEnv("os_ver"))})();
