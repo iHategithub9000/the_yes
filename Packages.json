@@ -15,5 +15,22 @@
       "16x16": "$REPO_PATH$/dist/windows96pain/16x16.png"
     },
     "packageRoot": "$REPO_PATH$/dist/windows96pain"
+  },
+  {
+    "name": "lite",
+    "friendlyName": "Windows 96 Lite",
+    "description": "Installs Windows 96 Lite Edition.",
+    "author": "none",
+    "category": "other",
+    "version": 1.0,
+    "feature_requirements": [],
+    "min_os_version": 300000,
+    "max_os_version": 400000,
+    "depends": [],
+    "iconFiles": {
+      "32x32": "$REPO_PATH$/dist/windows96 lite/32x32.png",
+      "16x16": "$REPO_PATH$/dist/windows96 lite/16x16.png"
+    },
+    "packageRoot": "$REPO_PATH$/dist/windows96 lite"
   }
 ]
